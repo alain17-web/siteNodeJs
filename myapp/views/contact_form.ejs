@@ -1,0 +1,21 @@
+  
+      
+      <%- include('header'); -%>
+      <div id="formulaire">
+        <h1>FORMULAIRE DE CONTACT</h1>
+            <form name="contact" method="post" action="/traitement">
+              <div>
+                <label for="nom">Nom : </label>
+                <input id="nom" name="nom" type="text" placeholder="Entrez votre nom"/>
+              </div>
+              <div>
+                <label for="msg">Votre message : </label>
+                <input id="msg" name="msg" type="text" placeholder="Entrez votre message">
+              </div>
+              <div id="button">
+                <button type="submit">Envoyer</button>
+              </div>
+            </form>
+        </div>
+        <%- include('footer'); -%>
+  

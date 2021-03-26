@@ -1,0 +1,12 @@
+<%- include('header'); -%>
+<div id="traitement">
+    <h1>Traitement des données</h1>
+    <h3>Bonjour <%= nom %> ! </h3>
+    <p>Nous avons bien reçu votre message : </p>
+    <p class="reponse"><%= msg %></p>
+</div>
+<div id="liens">
+    <button><a href="/">Retour vers l'accueil</a></button>
+    <button><a href="/contact">Envoyer un autre message</a></button>
+</div>
+<%- include('footer'); -%>
